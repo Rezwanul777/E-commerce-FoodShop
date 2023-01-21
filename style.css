@@ -4,6 +4,7 @@
    box-sizing: border-box;
 }
 
+/* nav item css start */
 .nav-item a{
    text-decoration: none;
    text-transform: uppercase;
@@ -14,5 +15,46 @@
 }
 
 .nav-item a:hover{
-   color: darkgreen;
+   color: rgb(20,219,20);
 }
+
+.search-input{
+   height: 45px;
+   outline: none;
+   border:2px solid rgb(20,219,20) ;
+   background-color: transparent;
+   border-radius: 20px 0px 0px 20px;
+   border-right: none;
+}
+
+.btn-search{
+   height: 45px;
+   outline: none;
+   background-color: rgb(20,219,20) ;
+   border-radius: 0px 20px 20px 0px;
+   border:none;
+   color:#fff;
+}
+
+.bi-bag-plus{
+   font-size: 30px;
+   transition: all 0.5s;
+}
+.bi-bag-plus:hover{
+   color: rgb(20,219,20) ;
+   cursor: pointer;
+
+}
+
+.navbar-toggler{
+   font-size: 25px;
+   
+   color: rgb(20,219,20) ;
+}
+
+.navbar-toggler:focus{
+   outline: none;
+   box-shadow: none;
+}
+
+/* nav item css end */
