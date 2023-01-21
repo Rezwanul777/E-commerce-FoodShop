@@ -58,3 +58,20 @@
 }
 
 /* nav item css end */
+
+.main{
+   background-color:antiquewhite;
+  
+   width: 100%;
+}
+
+.btn1{
+   height: 50px;
+   width: 25%;
+   border: none;
+   outline: none;
+   background-color: rgb(20,219,20) ;
+   border-radius: 50px;
+   color: #fff;
+}
+
