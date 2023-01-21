@@ -61,7 +61,7 @@
 
 .main{
    background-color:antiquewhite;
-  
+  position: relative;
    width: 100%;
 }
 
@@ -73,5 +73,37 @@
    background-color: rgb(20,219,20) ;
    border-radius: 50px;
    color: #fff;
+}
+
+.line{
+   height:5px;
+   width: 25%;
+   background-color: rgb(20,219,20) ;
+   display: inline-block;
+}
+   
+   .welcome{
+     background-color: rgb(20,219,20) ;
+     position: relative;
+    top:-270px;
+    left: 0;
+     z-index: 1;
+   }
+
+   .line2{
+      height:5px;
+      width: 25%;
+      background-color:#fff;
+      display: inline-block;
+   }
+
+
+   .card-body i{
+      font-size: 45px;
+      color:rgb(20,219,20) ;
+   }
+
+.card-body h4{
+   padding: 10px 0;
 }
 
